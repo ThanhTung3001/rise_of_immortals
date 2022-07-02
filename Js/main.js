@@ -110,11 +110,11 @@ sliderUI.slider.addEventListener("touchstart", (event) => {
 });
 
 let images = [
- '/assets/Imgs/IMG_HERO/pl1.png',
- '/assets/Imgs/IMG_HERO/pl2.png',
- '/assets/Imgs/IMG_HERO/pl3.png',
- '/assets/Imgs/IMG_HERO/pl4.png',
- '/assets/Imgs/IMG_HERO/pl5.png'
+ './assets/Imgs/IMG_HERO/pl1.png',
+ './assets/Imgs/IMG_HERO/pl2.png',
+ './assets/Imgs/IMG_HERO/pl3.png',
+ './assets/Imgs/IMG_HERO/pl4.png',
+ './assets/Imgs/IMG_HERO/pl5.png'
 ];
 
 sliderUI.slides.forEach((slide, index) => {
