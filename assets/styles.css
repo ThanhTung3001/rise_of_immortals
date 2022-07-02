@@ -55,13 +55,13 @@ header.main .main-menu ul li a {
 }
 
 html.js input.form-autocomplete {
-  background-image: url(/misc/throbber-inactive.png);
+  background-image: url(./misc/throbber-inactive.png);
   background-position: 100% center;
   background-repeat: no-repeat;
 }
 
 html.js input.throbbing {
-  background-image: url(/misc/throbber-active.gif);
+  background-image: url(./misc/throbber-active.gif);
   background-position: 100% center;
 }
 
@@ -94,7 +94,7 @@ fieldset.collapsible .fieldset-legend {
 }
 
 .resizable-textarea .grippie {
-  background: #eee url(/misc/grippie.png) no-repeat center 2px;
+  background: #eee url(./misc/grippie.png) no-repeat center 2px;
   border: 1px solid #ddd;
   border-top-width: 0;
   cursor: s-resize;
@@ -120,7 +120,7 @@ a.tabledrag-handle:hover {
 }
 
 a.tabledrag-handle .handle {
-  background: url(/misc/draggable.png) no-repeat 6px 9px;
+  background: url(./misc/draggable.png) no-repeat 6px 9px;
   height: 13px;
   margin: -0.4em 0.5em;
   padding: 0.42em 0.5em;
@@ -140,15 +140,15 @@ div.indentation {
 }
 
 div.tree-child {
-  background: url(/misc/tree.png) no-repeat 11px center;
+  background: url(./misc/tree.png) no-repeat 11px center;
 }
 
 div.tree-child-last {
-  background: url(/misc/tree-bottom.png) no-repeat 11px center;
+  background: url(./misc/tree-bottom.png) no-repeat 11px center;
 }
 
 div.tree-child-horizontal {
-  background: url(/misc/tree.png) no-repeat -11px center;
+  background: url(./misc/tree.png) no-repeat -11px center;
 }
 
 .tabledrag-toggle-weight-wrapper {
@@ -180,7 +180,7 @@ table.sticky-header {
 }
 
 .ajax-progress .throbber {
-  background: transparent url(/misc/throbber-active.gif) no-repeat 0px center;
+  background: transparent url(./misc/throbber-active.gif) no-repeat 0px center;
   float: left;
   height: 15px;
   margin: 2px;
@@ -264,17 +264,17 @@ ul.menu li {
 }
 
 ul li.expanded {
-  list-style-image: url(/misc/menu-expanded.png);
+  list-style-image: url(./misc/menu-expanded.png);
   list-style-type: circle;
 }
 
 ul li.collapsed {
-  list-style-image: url(/misc/menu-collapsed.png);
+  list-style-image: url(./misc/menu-collapsed.png);
   list-style-type: disc;
 }
 
 ul li.leaf {
-  list-style-image: url(/misc/menu-leaf.png);
+  list-style-image: url(./misc/menu-leaf.png);
   list-style-type: square;
 }
 
@@ -377,7 +377,7 @@ div.messages {
 }
 
 div.status {
-  background-image: url(/misc/message-24-ok.png);
+  background-image: url(./misc/message-24-ok.png);
   border-color: #be7;
 }
 
@@ -392,7 +392,7 @@ table tr.ok {
 }
 
 div.warning {
-  background-image: url(/misc/message-24-warning.png);
+  background-image: url(./misc/message-24-warning.png);
   border-color: #ed5;
 }
 
@@ -407,7 +407,7 @@ table tr.warning {
 }
 
 div.error {
-  background-image: url(/misc/message-24-error.png);
+  background-image: url(./misc/message-24-error.png);
   border-color: #ed541d;
 }
 
@@ -565,7 +565,7 @@ input.form-radio {
 }
 
 .more-help-link a {
-  background: url(/misc/help.png) 0 50% no-repeat;
+  background: url(./misc/help.png) 0 50% no-repeat;
   padding: 1px 0 1px 20px;
 }
 
@@ -591,12 +591,12 @@ input.form-radio {
 }
 
 html.js fieldset.collapsible .fieldset-legend {
-  background: url(/misc/menu-expanded.png) 5px 65% no-repeat;
+  background: url(./misc/menu-expanded.png) 5px 65% no-repeat;
   padding-left: 15px;
 }
 
 html.js fieldset.collapsed .fieldset-legend {
-  background-image: url(/misc/menu-collapsed.png);
+  background-image: url(./misc/menu-collapsed.png);
   background-position: 5px 50%;
 }
 
@@ -645,7 +645,7 @@ th.checkbox {
 }
 
 .progress .filled {
-  background: #0072b9 url(/misc/progress.gif);
+  background: #0072b9 url(./misc/progress.gif);
 }
 
 .container-inline-date {
@@ -1746,7 +1746,7 @@ body.toolbar-drawer div#admin-toolbar.vertical {
 }
 
 .feed a.feed-icon {
-  background: transparent url(/misc/feed.png);
+  background: transparent url(./misc/feed.png);
   width: 16px;
   height: 16px;
   display: block;
@@ -1760,64 +1760,64 @@ a.ical-icon div {
 }
 
 .file a.file-icon {
-  background: transparent url(/modules/file/icons/text-plain.png) no-repeat left center;
+  background: transparent url(./modules/file/icons/text-plain.png) no-repeat left center;
   padding: 2px 2px 2px 20px;
 }
 
 .file a.mime-application-pdf {
-  background-image: url(/modules/file/icons/application-pdf.png)
+  background-image: url(./modules/file/icons/application-pdf.png)
 }
 
 .file a.mime-application-octet-stream {
-  background-image: url(/modules/file/icons/application-octet-stream.png)
+  background-image: url(./modules/file/icons/application-octet-stream.png)
 }
 
 .file a.mime-application-x-executable {
-  background-image: url(/modules/file/icons/application-x-executable.png)
+  background-image: url(./modules/file/icons/application-x-executable.png)
 }
 
 .file a.mime-audio-x-generic {
-  background-image: url(/modules/file/icons/audio-x-generic.png)
+  background-image: url(./modules/file/icons/audio-x-generic.png)
 }
 
 .file a.mime-image-x-generic {
-  background-image: url(/modules/file/icons/image-x-generic.png)
+  background-image: url(./modules/file/icons/image-x-generic.png)
 }
 
 .file a.mime-package-x-generic {
-  background-image: url(/modules/file/icons/package-x-generic.png)
+  background-image: url(./modules/file/icons/package-x-generic.png)
 }
 
 .file a.mime-text-html {
-  background-image: url(/modules/file/icons/text-html.png)
+  background-image: url(./modules/file/icons/text-html.png)
 }
 
 .file a.mime-text-plain {
-  background-image: url(/modules/file/icons/text-plain.png)
+  background-image: url(./modules/file/icons/text-plain.png)
 }
 
 .file a.mime-text-x-generic {
-  background-image: url(/modules/file/icons/text-x-generic.png)
+  background-image: url(./modules/file/icons/text-x-generic.png)
 }
 
 .file a.mime-text-x-script {
-  background-image: url(/modules/file/icons/text-x-script.png)
+  background-image: url(./modules/file/icons/text-x-script.png)
 }
 
 .file a.mime-video-x-generic {
-  background-image: url(/modules/file/icons/video-x-generic.png)
+  background-image: url(./modules/file/icons/video-x-generic.png)
 }
 
 .file a.mime-x-office-document {
-  background-image: url(/modules/file/icons/x-office-document.png)
+  background-image: url(./modules/file/icons/x-office-document.png)
 }
 
 .file a.mime-x-office-presentation {
-  background-image: url(/modules/file/icons/x-office-presentation.png)
+  background-image: url(./modules/file/icons/x-office-presentation.png)
 }
 
 .file a.mime-x-office-spreadsheet {
-  background-image: url(/modules/file/icons/x-office-spreadsheet.png)
+  background-image: url(./modules/file/icons/x-office-spreadsheet.png)
 }
 
 .table-order-asc,
@@ -1828,11 +1828,11 @@ a.ical-icon div {
 }
 
 .table-order-asc {
-  background: transparent url(/misc/arrow-asc.png) no-repeat center top;
+  background: transparent url(./misc/arrow-asc.png) no-repeat center top;
 }
 
 .table-order-desc {
-  background: transparent url(/misc/arrow-desc.png) no-repeat center top;
+  background: transparent url(./misc/arrow-desc.png) no-repeat center top;
 }
 
 @font-face {
@@ -32340,7 +32340,7 @@ header.main .siteinfo h5 {
    background-color: var(--black--5);
 }
 #bg_god{
-  background-image: url(/assets/Imgs/image3.png);
+  background-image: url(./assets/Imgs/image3.png);
   background-size: cover;
 background-repeat: no-repeat;
   width: 100%;
@@ -32377,7 +32377,7 @@ page-clashofclans .m-introduction .deco span {
 }
 }
 #bg_old_char{
-  background-image: url("/assets/Imgs/ZeusAndHandes.png");
+  background-image: url("./assets/Imgs/ZeusAndHandes.png");
   
   background-size: cover;
   background-repeat: no-repeat;
