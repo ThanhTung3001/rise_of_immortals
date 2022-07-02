@@ -32560,7 +32560,7 @@ h1, p {
   left: 0;
   transform: translateY(-50%);
   height: 4px;
-  width: 100%;
+  width: 120%;
   z-index: -1;
 }
 
@@ -32679,7 +32679,7 @@ h1, p {
   display: block;
    height: 450px;
   position: absolute;
-  width: 100%;
+  width: 130%;
   margin-left: -12px;
 }
 .img_banner::before{
@@ -32688,7 +32688,7 @@ h1, p {
   display: block;
    height: 100%;
   position: absolute;
-  width: 100%;
+  width: 120%;
   margin-left: -12px;
 }
 .img_banner{
@@ -32717,4 +32717,23 @@ header.main .siteinfo h5 .img_logo {
   background-size: contain;
   height: auto;
   background-repeat: no-repeat;
+}
+.row{
+  margin: 0 !important;
+}
+#btn_download{
+  margin-bottom: 100px !important;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+  padding:0 !important;
+}
+.pgs-foundation-layout .grid-system-row{
+  padding: 0 !important;
+}
+.justify-content-center{
+  padding: 0 !important;
+}
+#bg_tech{
+  margin-bottom: 50px;
+
 }
