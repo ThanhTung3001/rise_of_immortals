@@ -29646,8 +29646,8 @@ div.page .node-job .recruitee-loader {
 
 @font-face {
   font-family: 'flexslider-icon';
-  src: url('//cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/fonts/flexslider-icon.eot');
-  src: url('//cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('//cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/fonts/flexslider-icon.woff') format('woff'), url('//cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/fonts/flexslider-icon.ttf') format('truetype'), url('//cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+  src: url('.//cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/fonts/flexslider-icon.eot');
+  src: url('.//cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('.//cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/fonts/flexslider-icon.woff') format('woff'), url('.//cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/fonts/flexslider-icon.ttf') format('truetype'), url('.//cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/fonts/flexslider-icon.svg#flexslider-icon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -32352,7 +32352,7 @@ background-repeat: no-repeat;
 }
 
 .good_img span{
-  background-image: url('/assets/Imgs/god_double_Char.png') !important;
+  background-image: url('./assets/Imgs/god_double_Char.png') !important;
 }
 page-clashofclans .m-introduction .deco span {
 
@@ -32666,7 +32666,7 @@ h1, p {
 }
 
 #bg_tech{
-  background-image: url('/assets/Imgs/img21.png');
+  background-image: url('./assets/Imgs/img21.png');
   width: 100%;
   background-size: auto 100%;
   height: 450px ;
