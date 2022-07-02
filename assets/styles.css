@@ -32340,7 +32340,7 @@ header.main .siteinfo h5 {
    background-color: var(--black--5);
 }
 #bg_god{
-  background-image: url(./assets/Imgs/image3.png);
+  background-image: url(./Imgs/image3.png);
   background-size: cover;
 background-repeat: no-repeat;
   width: 100%;
@@ -32352,7 +32352,7 @@ background-repeat: no-repeat;
 }
 
 .good_img span{
-  background-image: url('./assets/Imgs/god_double_Char.png') !important;
+  background-image: url('./Imgs/god_double_Char.png') !important;
 }
 page-clashofclans .m-introduction .deco span {
 
