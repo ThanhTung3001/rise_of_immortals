@@ -1,10 +1,8 @@
 
-*{
-  --black--5:rgba(0, 0, 0, 0.05)
-}
 :root {
   --line-border-fill: #3498db;
   --line-border-empty: #e0e0e0;
+  --black--5:rgba(0, 0, 0, 0.05)
 }   
 
 header.main .main-menu ul {
@@ -32272,6 +32270,9 @@ header.main .siteinfo h5 {
     top: 372px !important;
     left: 24px !important;
 } 
+.circle img{
+  width: 50px !important;
+}
 }
 #page-clashofclans .m-introduction .content{
   padding-bottom: 100px;
@@ -32679,7 +32680,8 @@ h1, p {
   display: block;
    height: 450px;
   position: absolute;
-  width: 110%;
+  margin: 0 0 0 1px !important;
+  width: 100%;
   margin-left: -12px;
 }
 .img_banner::before{
@@ -32736,4 +32738,13 @@ header.main .siteinfo h5 .img_logo {
 #bg_tech{
   margin-bottom: 50px;
 
+}
+.circle{
+  border:none;
+  border-radius: none;
+  background-color: inherit;
+}
+h6{
+  min-width: 100px;
+  text-align: center;
 }
